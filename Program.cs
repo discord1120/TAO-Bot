@@ -24,7 +24,7 @@ namespace TAO_BOT
                 Console.WriteLine(msg.ToString());
                 return Task.CompletedTask;
             };
-            await client.LoginAsync(TokenType.Bot, "NjIyODAwNTI3NzAwNTI1MDc0.XX7TrA.2DLHl5nyfZocBx1wO1krPPZamLY");
+            await client.LoginAsync(TokenType.Bot, "🤔");
             await client.StartAsync();
             await Task.Delay(-1);
         }
